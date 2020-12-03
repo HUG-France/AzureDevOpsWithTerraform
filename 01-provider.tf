@@ -9,6 +9,6 @@ terraform {
 
 
 provider "azuredevops" {
-  org_service_url       = "https://dev.azure.com/BookLabs/"
+  org_service_url       = "https://dev.azure.com/<your account>/"
   #personal_access_token = "xxxxxxxxxxxx" or env var AZDO_PERSONAL_ACCESS_TOKEN
 }
