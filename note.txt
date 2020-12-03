@@ -1,0 +1,8 @@
+
+terraform init
+
+terraform plan -out="azdo.tfplan"
+
+terraform apply azdo.tfplan
+
+terraform destroy
